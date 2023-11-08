@@ -10,7 +10,11 @@ import six
 
 import fasttext
 import torch
-from torchtext.legacy import data, vocab
+
+# from torchtext.legacy import data, vocab
+from torchtext import data
+from torchtext.vocab import Vocab
+
 from torchtext.utils import download_from_url
 from urllib.request import urlretrieve
 
